@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'ttfirsneuevarroman';
+					src: url('/wp-content/uploads/useanyfont/9994TTfirsneuevarroman.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9994TTfirsneuevarroman.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.ttfirsneuevarroman{font-family: 'ttfirsneuevarroman' !important;}
+
+				.et_gf_ttfirsneuevarroman{background:none !important;font-family:ttfirsneuevarroman;text-indent:0 !important;font-size:25px;}
+
+		

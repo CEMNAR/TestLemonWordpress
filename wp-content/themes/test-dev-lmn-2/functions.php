@@ -13,14 +13,14 @@ if ( ! defined( '_S_VERSION' ) ) {
 }
 
 add_action('wp_enqueue_scripts', 'my_plugin_add_stylesheet');
-add_action('wp_enqueue_scripts', function () {
+function my_plugin_add_stylesheet() {
 
     wp_register_style('styles', THEME_URI.'/style.css', array(), '1.0.0');
-        wp_enqueue_style('styles');
+    wp_enqueue_style('styles');
 
-        wp_register_script('scripts', THEME_URI.'/main.js', array(), '1.0.0', true);
-        wp_enqueue_script('scripts');
-});
+    wp_register_script('scripts', THEME_URI.'/main.js', array(), '1.0.0', true);
+    wp_enqueue_script('scripts');
+};
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.

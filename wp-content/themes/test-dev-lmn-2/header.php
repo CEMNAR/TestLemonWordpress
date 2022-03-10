@@ -24,7 +24,6 @@
 <div style="display: none">
     <?php
     include THEME_PATH.'/image/lemon.svg';
-    include THEME_PATH.'/image/lesstalk.svg';
     include THEME_PATH.'/image/arrow.svg';
     ?>
 </div>

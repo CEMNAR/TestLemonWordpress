@@ -19,9 +19,6 @@ get_header();
         <div class="image-back">
             <img src="<?= THEME_URI ?>/image/background_lemon.png">
 <!-- position absolute svg-->
-            <svg viewBox='0 0 160 160' width='90' height='90'>
-                <use xlink:href='#lesstalk'></use>
-            </svg>
         </div>
         <div class="content-text">
             <?php

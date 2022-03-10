@@ -1133,6 +1133,7 @@ ul#primary-menu {
 
 .mn-list {
 	margin-top: 10%;
+	pointer-events: none;
 }
 
 .main-navigation a {
